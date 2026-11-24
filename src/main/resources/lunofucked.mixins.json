@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.sparkynox.lunofucked.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "TitleScreenMixin",
+    "ChatHudMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

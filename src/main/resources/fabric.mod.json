@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "lunofucked",
+  "version": "1.0.0",
+  "name": "Luno Fucked",
+  "description": "Cracked account auto-griefer loop with name pool manager",
+  "authors": ["FuckOffAds"],
+  "environment": "client",
+  "icon": "assets/lunofucked/icon.png",
+  "entrypoints": {
+    "main": ["com.sparkynox.lunofucked.LunoFucked"],
+    "client": ["com.sparkynox.lunofucked.LunoFuckedClient"]
+  },
+  "mixins": ["lunofucked.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.4"
+  }
+}
